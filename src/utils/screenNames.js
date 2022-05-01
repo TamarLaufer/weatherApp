@@ -1,4 +1,4 @@
 export default {
-    home:"/",
-    favorite:"/favorites"
-}
+  home: "/home",
+  favorite: "/favorites",
+};
