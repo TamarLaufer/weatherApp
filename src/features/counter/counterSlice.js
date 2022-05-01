@@ -19,7 +19,7 @@ const initialState = {
   searchData: [],
   localeKey: "",
   showCelsius: true,
-  darkMode: true,
+  darkMode: false,
 };
 
 export const getCityAsync = createAsyncThunk(

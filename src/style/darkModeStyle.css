@@ -4,7 +4,7 @@
 }
 
 #lightMode {
-  background-color: white;
+  background-color: rgb(white, white, white, 0.2);
   color: black;
 }
 

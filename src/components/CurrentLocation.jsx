@@ -57,8 +57,14 @@ const CurrentLocation = (props) => {
       <div className='header-location'>
         <div className='container-left'>
           <div className='left'>
-            <p>{cityObj?.title}</p>
-            {degree && <p>{degree}</p>}
+            <div>
+              <p>{cityObj?.title}</p>
+            </div>
+            {degree && (
+              <div>
+                <p>{degree}</p>
+              </div>
+            )}
           </div>
         </div>
         <div className='container-right'>
