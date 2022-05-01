@@ -2,6 +2,7 @@
   "name": "heroloweather",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://TamarLaufer.github.io/weatherApp",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
@@ -33,7 +34,6 @@
     "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://TamarLaufer.github.io/weatherApp",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
