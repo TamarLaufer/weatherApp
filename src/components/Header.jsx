@@ -30,8 +30,8 @@ const Header = () => {
     return dispatch(toggleDarkTheme());
   };
 
-  const renderImage = (darkMode) => {
-    return darkMode ? lightLogo : darkLogo;
+  const renderImage = (lightMode) => {
+    return lightMode ? darkLogo : lightLogo;
   };
   return (
     <div className='navbar-container' id={divId}>
